@@ -71,3 +71,90 @@
     line-height: 40px;
     font-weight: bolder;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 600px;
+    /* background-color: gray; */
+    width: 600px;
+    position: absolute;
+    left: 100px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 13px;
+    bottom: 200px;
+}
+
+.inputs{
+    text-align: left;
+}
+
+.inputs h3{
+
+    margin-bottom: 10px;
+
+}
+
+
+.inputs input{
+    width: 600px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.pass{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.check{
+   position: absolute;
+   bottom: 60px;
+   display: flex;
+}
+
+.check input{
+    height: 17px;
+    width: 17px;
+}
+
+.check span{
+    margin-left: 10px;
+}
+
+.check strong{
+    border-bottom: 1px solid  rgba(255, 0, 0, 0.6);
+    
+}
+
+.Lastbtn{
+    position: absolute;
+    bottom: 0;
+}
+
+.Lastbtn button{
+    width: 250%;
+    padding: 5px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.6);
+    box-shadow: 2px 2px 20px black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.Lastbtn button:active{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.Lastbtn button:hover{
+    transform: scale(1.1);
+}
